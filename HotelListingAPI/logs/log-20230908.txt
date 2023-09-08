@@ -43,3 +43,8 @@
 2023-09-08 14:45:35.959 +12:00 [INF] Application started. Press Ctrl+C to shut down.
 2023-09-08 14:45:35.959 +12:00 [INF] Hosting environment: Development
 2023-09-08 14:45:35.959 +12:00 [INF] Content root path: /Users/justinconn/Desktop/visual-studio/HotelListingAPI/HotelListingAPI
+2023-09-08 17:57:01.706 +12:00 [INF] Now listening on: https://localhost:7283
+2023-09-08 17:57:01.722 +12:00 [INF] Now listening on: http://localhost:5067
+2023-09-08 17:57:01.723 +12:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-08 17:57:01.723 +12:00 [INF] Hosting environment: Development
+2023-09-08 17:57:01.723 +12:00 [INF] Content root path: /Users/justinconn/Desktop/visual-studio/HotelListingAPI/HotelListingAPI
