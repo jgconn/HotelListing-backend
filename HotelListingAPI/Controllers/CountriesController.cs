@@ -17,9 +17,9 @@ namespace HotelListing.API.Controllers
     public class CountriesController : ControllerBase
     {
         private readonly IMapper _mapper;
-        private readonly ICountriesRespoitory _countriesRespoitory;
+        private readonly ICountriesRepository _countriesRespoitory;
 
-        public CountriesController(IMapper mapper, ICountriesRespoitory countriesRespoitory)
+        public CountriesController(IMapper mapper, ICountriesRepository countriesRespoitory)
         {
             this._mapper = mapper;
             this._countriesRespoitory = countriesRespoitory;

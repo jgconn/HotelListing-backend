@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HotelListingAPI.Respoitory
 {
-    public class CountryRepository : GenericRepository<Country>, ICountriesRespoitory
+    public class CountryRepository : GenericRepository<Country>, ICountriesRepository
     {
         private readonly ApiDbContext _context;
 

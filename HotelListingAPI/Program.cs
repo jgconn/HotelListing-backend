@@ -29,7 +29,8 @@ builder.Host.UseSerilog((ctx, lc) => lc.WriteTo.Console().ReadFrom.Configuration
 builder.Services.AddAutoMapper(typeof(MapperConfig));
 
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-builder.Services.AddScoped<ICountriesRespoitory, CountryRepository>();
+builder.Services.AddScoped<ICountriesRepository, CountryRepository>();
+builder.Services.AddScoped<IHotelsRepository, HotelRepository>();
 
 var app = builder.Build();
 
