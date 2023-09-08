@@ -1,7 +1,7 @@
 ﻿using System;
-namespace HotelListingAPI.Models
+namespace HotelListingAPI.Data
 {
-	public class Country
+    public class Country
 	{
 		public int Id { get; set; }
 		public string Name { get; set; } = null!;
@@ -9,4 +9,3 @@ namespace HotelListingAPI.Models
 		public virtual IList<Hotel> Hotels { get; set; }
 	}
 }
-

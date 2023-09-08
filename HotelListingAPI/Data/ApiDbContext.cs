@@ -1,8 +1,4 @@
-﻿using System;
-using System.Security.Cryptography.X509Certificates;
-using System.Xml.Linq;
-using HotelListingAPI.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace HotelListingAPI.Data
 {
@@ -17,12 +13,12 @@ namespace HotelListingAPI.Data
         public DbSet<Country> Countries { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-		{
-			base.OnModelCreating(modelBuilder);
-			modelBuilder.Entity<Country>().HasData(
-				new Country
-				{
-					Id = 1,
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Country>().HasData(
+                new Country
+                {
+                    Id = 1,
 					Name = "New Zealand",
                     ShortName = "NZ"
 				},
