@@ -1,0 +1,25 @@
+2023-09-09 00:17:43.365 +12:00 [INF] Now listening on: https://localhost:7283
+2023-09-09 00:17:43.378 +12:00 [INF] Now listening on: http://localhost:5067
+2023-09-09 00:17:43.379 +12:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-09 00:17:43.379 +12:00 [INF] Hosting environment: Development
+2023-09-09 00:17:43.379 +12:00 [INF] Content root path: /Users/justinconn/Desktop/visual-studio/HotelListingAPI/HotelListingAPI
+2023-09-09 14:37:19.721 +12:00 [INF] Now listening on: https://localhost:7283
+2023-09-09 14:37:19.736 +12:00 [INF] Now listening on: http://localhost:5067
+2023-09-09 14:37:19.736 +12:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-09 14:37:19.736 +12:00 [INF] Hosting environment: Development
+2023-09-09 14:37:19.737 +12:00 [INF] Content root path: /Users/justinconn/Desktop/visual-studio/HotelListingAPI/HotelListingAPI
+2023-09-09 20:04:26.333 +12:00 [INF] Now listening on: https://localhost:7283
+2023-09-09 20:04:26.350 +12:00 [INF] Now listening on: http://localhost:5067
+2023-09-09 20:04:26.351 +12:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-09 20:04:26.351 +12:00 [INF] Hosting environment: Development
+2023-09-09 20:04:26.351 +12:00 [INF] Content root path: /Users/justinconn/Desktop/visual-studio/HotelListingAPI/HotelListingAPI
+2023-09-09 20:59:34.027 +12:00 [INF] Now listening on: https://localhost:7283
+2023-09-09 20:59:34.041 +12:00 [INF] Now listening on: http://localhost:5067
+2023-09-09 20:59:34.042 +12:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-09 20:59:34.042 +12:00 [INF] Hosting environment: Development
+2023-09-09 20:59:34.042 +12:00 [INF] Content root path: /Users/justinconn/Desktop/visual-studio/HotelListingAPI/HotelListingAPI
+2023-09-09 21:00:59.865 +12:00 [INF] Now listening on: https://localhost:7283
+2023-09-09 21:00:59.878 +12:00 [INF] Now listening on: http://localhost:5067
+2023-09-09 21:00:59.880 +12:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-09 21:00:59.880 +12:00 [INF] Hosting environment: Development
+2023-09-09 21:00:59.880 +12:00 [INF] Content root path: /Users/justinconn/Desktop/visual-studio/HotelListingAPI/HotelListingAPI

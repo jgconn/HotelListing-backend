@@ -1,8 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using HotelListingAPI.Data.Configurations;
 
 namespace HotelListingAPI.Data
 {
-	public class ApiDbContext: DbContext
+    public class ApiDbContext : IdentityDbContext<ApiUser>
 	{
 		public ApiDbContext(DbContextOptions<ApiDbContext> options) :
 			base(options)
@@ -12,50 +14,17 @@ namespace HotelListingAPI.Data
         public DbSet<Hotel> Hotels { get; set; }
         public DbSet<Country> Countries { get; set; }
 
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Country>().HasData(
-                new Country
-                {
-                    Id = 1,
-					Name = "New Zealand",
-                    ShortName = "NZ"
-				},
-				new Country
-                {
-					Id = 2,
-					Name = "United States",
-					ShortName = "USA"
 
-                },
-                new Country
-                {
-                    Id = 3,
-                    Name = "Australia",
-                    ShortName = "AUS"
+            modelBuilder.ApplyConfiguration(new RoleConfigurations());
 
-                }
-            );
-			modelBuilder.Entity<Hotel>().HasData(
-				new Hotel
-				{
-					Id = 4,
-					Name = "The Grand Hotel",
-					Address = "Sydney",
-					CountryId = 3,
-					Rating = 4
-				},
-                new Hotel
-                {
-                    Id = 5,
-                    Name = "The Deep",
-                    Address = "Auckland",
-                    CountryId = 1,
-                    Rating = 5
-                }
-            );
-		}
+            modelBuilder.ApplyConfiguration(new CountryConfiguration());
+
+            modelBuilder.ApplyConfiguration(new HotelConfiguration());
+        }
 	}
 }
 
